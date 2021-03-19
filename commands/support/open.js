@@ -109,7 +109,9 @@ Example usage: (PREFIX)open 20`,
                       )
                       .setFooter(`${openCase.date}`);
 
-                    await chan.send(`<@${mmbr.user.id}>`, embed);
+                    await chan
+                      .send(`<@${mmbr.user.id}>`, embed)
+                      .then((M) => M.pin());
                     if (openCase.attachments)
                       chan.send(`Attachment:\n${openCase.attachments}`);
                     await snd.send(

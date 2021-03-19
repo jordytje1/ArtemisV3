@@ -186,7 +186,9 @@ Example usage: (PREFIX)help`,
                       )
                       .setFooter(`${numGet.date}`);
 
-                    await chan.send(`<@${mmbr.user.id}>`, embed);
+                    await chan
+                      .send(`<@${mmbr.user.id}>`, embed)
+                      .then((M) => M.pin());
                     if (numGet.attachments)
                       chan.send(`Attachment:\n${numGet.attachments}`);
                     await snd.send(
