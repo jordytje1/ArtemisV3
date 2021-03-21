@@ -36,7 +36,7 @@ module.exports = {
         return (TOKEN = "chain.pem");
         break;
       case "ytkey":
-        return (TOKEN = "YOUTUBE_KEY");
+        return (TOKEN = "AIzaSyATU2joMJ_ciAJlxfCS3F4iMCv0rjKiFgE");
         break;
     }
   },
