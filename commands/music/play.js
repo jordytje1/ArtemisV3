@@ -105,7 +105,7 @@ Example usage: ${prefix}play https://www.youtube.com/watch?v=dQw4w9WgXcQ`);
               voiceChannel: voiceChannel,
               connection: null,
               songs: [],
-              volume: 5,
+              volume: 30,
               playing: true,
             };
 
@@ -197,7 +197,7 @@ Example usage: ${prefix}play https://www.youtube.com/watch?v=dQw4w9WgXcQ`);
                 voiceChannel: voiceChannel,
                 connection: null,
                 songs: [],
-                volume: 5,
+                volume: 30,
                 playing: true,
               };
 

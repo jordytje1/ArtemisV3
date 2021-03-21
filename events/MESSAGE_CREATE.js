@@ -89,9 +89,13 @@ module.exports = {
       if (artSet) {
         if (artSet.artemisTalks == "ON") {
           let contextMsg = msg.content.slice(8);
-          cleverbot(contextMsg).then(async (response) => {
-            await snd.send(response);
-          });
+          try {
+            cleverbot(contextMsg).then(async (response) => {
+              await snd.send(response);
+            });
+          } catch (err) {
+            console.log("");
+          }
         }
       }
     }
