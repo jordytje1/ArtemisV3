@@ -9,13 +9,13 @@ module.exports = {
         return (TOKEN = "BOT_TOKEN_HERE");
         break;
       case "OWNER": //Bot Owner user ID
-        return (TOKEN = "OWNER_ID_HERE");
+        return (TOKEN = "376384142599782410");
         break;
       case "CURRENCY": //Currency for virtual points kek
-        return (TOKEN = "CURRENCY SYMBOL HERE");
+        return (TOKEN = "💰");
         break;
       case "MAIN_LOG": //Main bot log channel
-        return (TOKEN = "DISCORD_BOT_LOG_CHANNEL");
+        return (TOKEN = "734869150240866487");
         break;
       case "TWITCH_ID": //Twitch first id
         return (TOKEN = "TWITCH_ID");
